@@ -8,14 +8,16 @@
   width: 100vx;
 }
 .counter{ 
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px 5px orangered;
   border-radius: 10px;
   margin: 20px;
- padding:50px;
+ padding:30px;
  display:flex;
  justify-content: center;
  align-items: center;
  flex-direction: column;
+ height: 250px;
+ width:250px
 }
 .counter p {
   font-size: 30px; 

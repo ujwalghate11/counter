@@ -6,8 +6,7 @@ const Counter = () => {
      //let count = 0;
     const incr =()=>{
         setError('')
-        setCount(count+1)
-        
+        setCount(count+1)  
     }
     const decr =()=>{
        if(count<= 0){
@@ -16,8 +15,6 @@ const Counter = () => {
        else{
         setCount(count-1)
        }
-       
-        
     }
     const reset =()=>{
         
